@@ -363,20 +363,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	_W.Analytics.site_id = '302072516798644448';
 
 	var drSegmentsTag = document.getElementById('drSegments');
-	if (drSegmentsTag) {
-		_W.Analytics.spContexts = _W.Analytics.spContexts || [];
-
-		var segmentData = JSON.parse(drSegmentsTag.innerText);
-		segmentData.forEach(function(test) {
-			_W.Analytics.spContexts.push({
-				schema: "iglu:com.weebly/context_ab_segment/jsonschema/1-0-0",
-				data: {
-					test_id: test.name,
-					segment: test.variant,
-				}
-			});
-		});
-	}
+	
 
 
 	(function(app_id, ec_hostname, discover_root_domain) {
