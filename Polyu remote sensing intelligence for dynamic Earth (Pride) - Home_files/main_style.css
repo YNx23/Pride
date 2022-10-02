@@ -501,3 +501,5 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 .product-grid .product-grid-image .product-grid__image-sale-banner-wrapper {background: #da5861;}
 #wsite-com-category-product-group .category__image-sale-banner-wrapper {background: #da5861;}
 #wsite-search-product-results .wsite-search-product-result .wsite-search-product-image-container .search__image-sale-banner-wrapper {background: #da5861;}
+
+#more {display: none;}
